@@ -2,9 +2,9 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 import time
 
-bot = telebot.TeleBot("7665835772:AAHHcoyAM2TvLtqmmCwaqiOU3S4F4Fnw-4s")
+bot = telebot.TeleBot("7602505753:AAFaYOCHxdakKTbVi4aAxl3wginXwD4p1GA")
 moder = 1534688019  # ID модератора
-channel_id = "@bebebeFu "  # Укажите username вашего канала
+channel_id = "@bitboxTV"  # Укажите username вашего канала
 
 # Словари для отслеживания состояния
 user_states = {}
