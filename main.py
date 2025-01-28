@@ -122,20 +122,6 @@ def handle_message(message):
     else:
         bot.send_message(chat_id, "Я не понимаю ваш запрос. Используйте команду /start, чтобы начать.")
 
-
-import os
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Бот работает!"
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Render указывает PORT через переменные окружения
-    app.run(host="0.0.0.0", port=port)
-
 def run_bot():
     while True:
         try:
